@@ -1,0 +1,171 @@
+
+.project-container{
+    min-height: 100vh;
+    scroll-snap-align: start;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project-section{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 60%;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:5vw;
+}
+.project-card{
+    border-radius: 10px;
+    width: 70%;
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    background-color: #080808;
+    margin-bottom:5vw;
+
+}
+
+.project-section-title{
+    color: #B72C2C;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "ChakraPetch";
+}
+.project-section-description{
+    color:#9D9D9D;
+    font-size: 24px;
+    font-family: "ChakraPetch";
+}
+.project-details{
+    margin-right: 10px;
+    font-size: 24px;
+   
+}
+.project-description{
+    
+    font-family: "ChakraPetch";
+    font-size: 20px;
+    color: white;
+    /* border: 2px solid #9D9D9D ; */
+    border-radius: 5px;
+    /* background-color: black; */
+
+}
+.project-img-container{
+    display: flex;
+    align-items: center;
+    
+}
+.project-img{
+    border: 2px solid #B72C2C;
+    border-radius: 10px;
+    width: 22vw;
+}
+.project-stack{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.stack-tag{
+    margin: 0px 10px 10px 0px;
+    font-family: "ChakraPetch";
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 7px 7px;
+    border: 1px solid;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+/* utility classes */
+
+.react{
+    background-color: #6c99d32a;
+    color:#6C98D3;
+    border-color: #6C98D3;
+}
+.node{
+    background-color: #3f873f27;
+    color:#3F873F;
+    border-color: #3F873F;
+}
+
+.python{
+    background-color: rgba(141, 133, 45, 0.147);
+    color:#ada011;
+    border-color: #ada011;
+}
+
+.socket{
+    background-color: #c9c9c937;
+    color:#c9c9c9;
+    border-color: #c9c9c9;
+}
+
+.express{
+    background-color: #95959529;
+    color:#959595;
+    border-color: #959595;
+}
+.firebase{
+    background-color: #ff730017;
+    color:#FF7300;
+    border-color: #FF7300;
+}
+.stack-img{
+    margin: 0px 7px 0px 0px;
+    height: 15px;
+}
+.project-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+    margin-top: 30px;
+    padding: 5px 5px;
+}
+
+
+/* media queries */
+@media only screen and (max-width: 1400px){
+.project-section{
+    width: 80%;
+    margin: 50px;
+}
+
+.project-card{
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.project-img{
+    width: 40vw;
+}
+.project-img-container{
+    display: flex;
+    padding-bottom: 0px;
+    justify-content: center;
+}
+.project-description{
+    margin: 0px;
+    position: initial;
+}
+}
+
+@media only screen and (max-width: 900px){
+    .project-card{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .project-img{
+        width: 100%;
+        
+    }
+}

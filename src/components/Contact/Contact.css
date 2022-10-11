@@ -1,0 +1,64 @@
+.contact-container{
+    min-height: 100vh;
+
+    scroll-snap-align: start;
+    background-color: #090909;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+    align-items: center;
+}
+.contact-content{
+    margin: auto;
+    text-align: center;
+}
+.contact-link{
+    font-size: 18px;
+    font-family: "ChakraPetch";
+    padding: 10px 15px;
+    display: flex;
+    align-items:center;
+    margin: 25px 25px;
+    background-color: #B72C2C;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+.links-container2{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    
+}
+.getintouch{
+    color:#B72C2C;
+    font-size:70px;
+    font-family:"MrRobot";
+    margin:30px 30px;
+    letter-spacing: 7px;
+}
+.getintouch-msg{
+    color:#9D9D9D;
+     font-size:24px;
+    font-family:"ChakraPetch";
+    margin: 10px;
+}
+@media only screen and (max-width: 768px){
+   .getintouch{
+    font-size: 10vw;
+   }
+   .contact-link{
+    margin: 15px 30px;;
+   }
+    
+}
+
+@media only screen and (max-width: 600px){
+    .getintouch{
+        font-size: 8vw;
+       }
+    .getintouch-msg{
+        font-size: 5vw;
+    }
+
+}

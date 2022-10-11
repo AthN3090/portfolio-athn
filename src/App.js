@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
-
+import About from './components/About/About';
+import Home from './components/Home/Home';
+import Project from './components/Projects/Project';
+import Contact from './components/Contact/Contact';
+import Navigation from './components/Navigation/Navigation';
+import Links from './components/Links/Links';
 function App() {
+
+  // useEffect(()=>{
+  //   window.addEventListener('scroll', ()=>{
+  //     console.log("HELLO")
+  //   })
+  // })
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation/>
+       <Home/>
+      <About />
+      <Project/>
+      <Contact />
+      <Links />
     </div>
   );
 }
