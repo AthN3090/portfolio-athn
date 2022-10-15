@@ -21,7 +21,7 @@ function Home() {
                         {profile.main.tagline}
                         
                     </p><br/>
-                    <a href="#about" download className='resume-button'> Resume </a>
+                    <a href="Aman_resume.pdf" download target={"_blank"} className='resume-button'> Resume </a>
                 </div>
             </div>
         </div>
