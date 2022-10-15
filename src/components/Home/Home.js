@@ -6,7 +6,7 @@ function Home() {
     return ( 
         <div className='home-container' id="home">
             <div className='home-greeting'>
-                <img src={avatar} height = {"300px"} width={"300px"} alt="avatar" ></img>
+                <img className="home-logo" src={avatar} alt="avatar" ></img>
                 <div className='home-text'>
                     <p className="hello-msg">
                         {profile.main.greeting}

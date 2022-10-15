@@ -16,19 +16,19 @@ function About() {
     <div className="about-container" id="about">
         <div className="intro-container">
             <div className="about">
-                <p style={{color:"#B72C2C", fontWeight: "bold" , fontSize:"32px", fontFamily:"ChakraPetch"}}>About Me</p>
-                <p style={{color:"#9D9D9D", fontSize:"24px", fontFamily:"ChakraPetch"}}> 
+                <p style={{color:"#B72C2C", fontWeight: "bold" , fontSize:"26px", fontFamily:"ChakraPetch"}}>About Me</p>
+                <p style={{color:"#d1d1d1", fontSize:"18px", fontFamily:"ChakraPetch"}}> 
                 Hey! I am Aman Dev Chowdary. I am a computer science undergraduate from IIIT Surat, working full-time as an Assistant System Engineer at TCS. 
                 <br/><br/>I like exploring ideas and building applications to solve real-life problems with code.
                 I am currently looking for oportunites to work with awesome people and grow as a software engineer.
                 <br/><br/>When I am not coding, I play badminton and sometimes I play computer games with my friends. 
                 </p>
             </div>
-            <div className="devider"style={{backgroundColor:"#222222", width:"1px", margin:"150px 40px" }}></div>
+            <div className="devider" ></div>
             <div className="tools">
-                <p style={{color:"#B72C2C", fontWeight: "bold" ,fontSize:"32px", fontFamily:"ChakraPetch"}}>
-                Tools and Tehnologies</p>
-                <p style={{color:"#9D9D9D", fontSize:"24px",fontFamily:"ChakraPetch"}}> 
+                <p style={{color:"#B72C2C", fontWeight: "bold" ,fontSize:"26px", fontFamily:"ChakraPetch"}}>
+                Tools and Technologies</p>
+                <p style={{color:"#d1d1d1", fontSize:"18px",fontFamily:"ChakraPetch"}}> 
                 I spend my free time developing projects and in the process I have learnt the following languages and tools.</p>
                 <div className="skills">
                     <div className="skill-tag">

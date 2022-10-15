@@ -31,7 +31,7 @@ function Project() {
             <div className="card-container">
             <div className="project-card">
                     <div className="project-details">
-                    <p style={{color:"#B72C2C", }}><span style={{color:"white" ,fontSize:"18px"}}>1.  </span>Heiwa</p>
+                    <p style={{color:"#B72C2C", }}>Heiwa</p>
                         <div className="project-description ">
                         A one-to-one anonymous chat application for people with poor mental health.
                         </div>
@@ -60,7 +60,7 @@ function Project() {
                 </div>
                 <div className="project-card">
                     <div className="project-details">
-                    <p style={{color:"#B72C2C", }}><span style={{color:"white" ,fontSize:"18px"}}>1.  </span>Save-me</p>
+                    <p style={{color:"#B72C2C", }}>Save-me</p>
                         <div className="project-description ">
                         Save-me is a command-line tool for saving your work files with just a single command through your terminal.
                         </div>
@@ -89,7 +89,7 @@ function Project() {
                 </div>
                 <div className="project-card">
                     <div className="project-details">
-                    <p style={{color:"#B72C2C", }}><span style={{color:"white" ,fontSize:"18px"}}>1.  </span>Minesweeper React</p>
+                    <p style={{color:"#B72C2C", }}>Minesweeper React</p>
                         <div className="project-description ">
                         An implementation of the classic minesweeper game with React.
                         </div>

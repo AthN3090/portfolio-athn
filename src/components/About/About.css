@@ -29,34 +29,43 @@
 .skill-tag{
     font-family: "ChakraPetch";
     font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 2px;
+
+
     padding: 10px 10px;
     /* border: white solid; */
     min-width: 180px;
     display: flex;
     align-items: center;
-    color:#9D9D9D
+    color:#d1d1d1;
 }
 .tag-img{
     height: 24px;
     margin: 5px 20px 5px 5px;
 }
 
-@media only screen and (max-width: 1400px){
+.devider{
+    background-color:#222222;
+     width:1px;
+     margin:150px 40px;
+}
+@media only screen and (max-width: 1024px){
     .intro-container{
-        flex-wrap:wrap;
-        width: 100%;
+        width: 90%;
     }
     .devider{
-        display: none;
+        width: 1px;
+        margin: 100px 0px;
     }
     .about, .tools{
         width: 80%;
     }
     
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 768px){
+    .intro-container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
     .skills{
         justify-content: space-between;
     }
@@ -64,6 +73,15 @@
         min-width: 0px;
         width: 40%;
         font-size: 3vw;
+    }
+    .about{
+        margin: 0;
+    }
+    .tools{
+        margin:20px 0px;
+    }
+    .devider{
+        display: none;
     }
 
 }

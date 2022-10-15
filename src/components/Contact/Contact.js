@@ -8,20 +8,20 @@ function Contact() {
         <div className="contact-content">
             <p className="getintouch" >GET IN TOUCH</p>
             <p className="getintouch-msg" >
-                I'm currently exploring opportunites in <span style={{color:"#B72C2C", fontSize:"24px", fontFamily:"ChakraPetch"}}>Front-end Development.</span><br/>
+                I'm currently exploring opportunites in <span style={{color:"#B72C2C", fontSize:"18px", fontFamily:"ChakraPetch"}}>Front-end Development.</span><br/>
                 Feel free to reach out incase you have an opportunity for me or just want to say hi.
             </p>
             <div className="links-container2">
             <a href="https://github.com/AthN3090" className="contact-link">
-                <img src={github} style={{marginRight:"15px"}} height="32px" alt="github"></img>
+                <img src={github} style={{marginRight:"15px"}} height="18px" alt="github"></img>
                 Github
             </a>
             <a href="https://www.linkedin.com/in/athn3090/" className="contact-link">
-                <img src={linkedin} style={{marginRight:"15px"}} height="32px" alt="linkedin"></img>
+                <img src={linkedin} style={{marginRight:"15px"}} height="18px" alt="linkedin"></img>
                 Linkedin
             </a>
             <a href="mailto:amandevrishi12@gmail.com" className="contact-link">
-                <img src={mail}  style={{marginRight:"15px"}} height="32px" alt="mail"></img>
+                <img src={mail}  style={{marginRight:"15px"}} height="18px" alt="mail"></img>
                 Email
             </a>
             </div>
