@@ -33,6 +33,10 @@
     border-color: #B72C2C;
     color: #B72C2C;
 }
+.resume-button:hover{
+    background-color: #2b00008b;
+
+}
 .hello-msg{
     margin: 12px 0px;
     color:white;

@@ -22,7 +22,7 @@ function Project() {
     <div className="project-container" id="projects">
         <div className="project-section"> 
             <div >
-                <p className="project-section-title">My creative works</p>
+                <p className="project-section-title">Things I have built</p>
                 <p className="project-section-description">
                 I believe in learning-by-doing. Here are some of the things I have built all through my learning process.
                 </p>
@@ -30,6 +30,9 @@ function Project() {
             </div>
             <div className="card-container">
             <div className="project-card">
+                <div className="project-img-container">
+                        <img className="project-img" src={heiwa} alt="projectimage"></img>
+                    </div>
                     <div className="project-details">
                     <p style={{color:"#B72C2C", }}>Heiwa</p>
                         <div className="project-description ">
@@ -54,11 +57,12 @@ function Project() {
                             <a href="https://heiwa.vercel.app/"><img src={demo} alt="" height="20px"/> </a>
                         </div>
                     </div>
-                    <div className="project-img-container">
-                        <img className="project-img" src={heiwa} alt="projectimage"></img>
-                    </div>
+                    
                 </div>
                 <div className="project-card">
+                <div className="project-img-container">
+                        <img className="project-img" src={saveme} alt="projectimage"></img>
+                    </div>
                     <div className="project-details">
                     <p style={{color:"#B72C2C", }}>Save-me</p>
                         <div className="project-description ">
@@ -83,11 +87,12 @@ function Project() {
                             {/* <a href="#projects" ><img src={demo} height="20px" alt="demo-link" /> </a> */}
                         </div>
                     </div>
-                    <div className="project-img-container">
-                        <img className="project-img" src={saveme} alt="projectimage"></img>
-                    </div>
+                    
                 </div>
                 <div className="project-card">
+                <div className="project-img-container">
+                        <img className="project-img" src={reactivemines} alt="projectimage"></img>
+                    </div>
                     <div className="project-details">
                     <p style={{color:"#B72C2C", }}>Minesweeper React</p>
                         <div className="project-description ">
@@ -103,9 +108,7 @@ function Project() {
                             <a href="https://reactive-mines.firebaseapp.com/"><img src={demo} alt="" height="20px"/> </a>
                         </div>
                     </div>
-                    <div className="project-img-container">
-                        <img className="project-img" src={reactivemines} alt="projectimage"></img>
-                    </div>
+                    
                 </div>
                 
             </div>

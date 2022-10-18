@@ -61,7 +61,7 @@
     }
     
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 900px){
     .intro-container{
         width: 100%;
         flex-wrap: wrap;
@@ -72,7 +72,7 @@
     .skill-tag{
         min-width: 0px;
         width: 40%;
-        font-size: 3vw;
+        font-size: 18px;
     }
     .about{
         margin: 0;
