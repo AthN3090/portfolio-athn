@@ -33,14 +33,14 @@
 
     padding: 10px 10px;
     /* border: white solid; */
-    min-width: 180px;
+    min-width: 155px;
     display: flex;
     align-items: center;
     color:#d1d1d1;
 }
 .tag-img{
     height: 24px;
-    margin: 5px 20px 5px 5px;
+    margin: 5px 15px 5px 5px;
 }
 
 .devider{
@@ -48,7 +48,7 @@
      width:1px;
      margin:150px 40px;
 }
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1200px){
     .intro-container{
         width: 90%;
     }
