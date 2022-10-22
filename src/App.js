@@ -14,16 +14,16 @@ function App() {
       console.log("page loaded")
       setLoaderVisible(false)
     }
-    if(document.Loading === 'completed'){
-
+    if(document.readyState === 'complete'){
+      setLoaderVisible(false)
     }else{
       window.addEventListener('load', onPageLoad)
     }
     return ()=> window.removeEventListener('load', onPageLoad)
-  })
+  },[])
   return (
     <div className="App">
-      {/* <Loading isVisible={loaderVisible}/> */}
+      <Loading isVisible={loaderVisible}/>
       <Navigation/>
       <Home />
       <About />
