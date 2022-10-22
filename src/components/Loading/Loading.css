@@ -1,0 +1,27 @@
+.loading-screen{
+    z-index: 2;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    overflow: hidden; */
+}
+@keyframes fadeOut{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.hide-loadscreen{
+    display: none;
+}

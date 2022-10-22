@@ -1,11 +1,24 @@
 import './Home.css'
 import avatar from "./avatar.png"
 import profile from "../../Profile.json"
+import {useEffect, useRef, useState} from "react"
 function Home() {
-    console.log(profile.main.img.toString())
+    const [homeAnimationClass, setAnimationClass] = useState('hidden-home')
+    const homeRef = useRef(); 
+    const callback = (entries, observer) => {
+        const [entry] = entries;
+        if (entry.isIntersecting) {
+            setAnimationClass('show-home')
+            // homeRef.current.classList.add('show-home')
+        }
+    }
+    useEffect(() => {
+        const observer = new IntersectionObserver(callback)
+        observer.observe(homeRef.current)
+    }, [])
     return ( 
-        <div className='home-container' id="home">
-            <div className='home-greeting'>
+        <div  className='home-container' id="home">
+            <div ref ={homeRef} className= {"home-greeting " + homeAnimationClass}>
                 <img className="home-logo" src={avatar} alt="avatar" ></img>
                 <div className='home-text'>
                     <p className="hello-msg">

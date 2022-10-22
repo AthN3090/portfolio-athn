@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {  useState } from "react";
 import "./Navigation.css"
 function Navigation() {
     const [isVisible, setVisible] = useState(false)
@@ -15,6 +15,7 @@ function Navigation() {
             setVisible(true)
         }
     }
+    
     return ( 
     <div className="navbar">
         <a href="#home" className="nav-logo">

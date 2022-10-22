@@ -11,6 +11,16 @@
 .contact-content{
     margin: auto;
     text-align: center;
+    opacity: 0;
+}
+.hidden-contact{
+    opacity: 0;
+    transform: translateY(100px);
+}
+.show-contact{
+    opacity: 1; 
+    transition: all 0.5s;
+    transform: translateY(0px);
 }
 .contact-link{
     font-size: 18px;

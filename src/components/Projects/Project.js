@@ -17,11 +17,30 @@ import express from "../About/express.png"
 import firebase from "../About/firebase.png"
 import demo from "./hyperlink.png"
 import github from "./github-link.png"
+import { useEffect } from "react"
 function Project() {
+    // const [projectAnimationClass, setAnimationClass] = useState('hidden-project')
+    
+    useEffect(()=>{
+        const entries = Array.from(document.querySelectorAll('.hidden-project'))
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if(entry.isIntersecting){
+                    entry.target.classList.add('show-project')
+                    entry.target.classList.remove('hidden-project')
+                }
+            }
+            )
+        });
+        entries.forEach(item => {
+            observer.observe(item)
+        })
+
+    })
     return (  
     <div className="project-container" id="projects">
         <div className="project-section"> 
-            <div >
+            <div className="hidden-project">
                 <p className="project-section-title">Things I have built</p>
                 <p className="project-section-description">
                 I believe in learning-by-doing. Here are some of the things I have built all through my learning process.
@@ -29,7 +48,7 @@ function Project() {
 
             </div>
             <div className="card-container">
-            <div className="project-card">
+            <div className="project-card hidden-project">
                 <div className="project-img-container">
                         <img className="project-img" src={heiwa} alt="projectimage"></img>
                     </div>
@@ -54,12 +73,12 @@ function Project() {
                         </div>
                         <div className="project-links">
                             <a href="https://github.com/AthN3090/Heiwa-react"><img src={github} alt="" height="25px"/></a>
-                            <a href="https://heiwa.vercel.app/"><img src={demo} alt="" height="20px"/> </a>
+                            <a href="https://heiwa.vercel.app/"><img src={demo} alt="" height="22px"/> </a>
                         </div>
                     </div>
                     
                 </div>
-                <div className="project-card">
+                <div className="project-card hidden-project">
                 <div className="project-img-container">
                         <img className="project-img" src={saveme} alt="projectimage"></img>
                     </div>
@@ -89,7 +108,7 @@ function Project() {
                     </div>
                     
                 </div>
-                <div className="project-card">
+                <div className="project-card hidden-project">
                 <div className="project-img-container">
                         <img className="project-img" src={reactivemines} alt="projectimage"></img>
                     </div>
@@ -105,7 +124,7 @@ function Project() {
                         </div>
                         <div className="project-links">
                             <a href="https://github.com/AthN3090/reactive-mines"><img src={github} alt="" height="25px"/></a>
-                            <a href="https://reactive-mines.firebaseapp.com/"><img src={demo} alt="" height="20px"/> </a>
+                            <a href="https://reactive-mines.firebaseapp.com/"><img src={demo} alt="" height="22px"/> </a>
                         </div>
                     </div>
                     

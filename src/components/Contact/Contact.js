@@ -2,10 +2,24 @@ import "./Contact.css"
 import github from "./github.png"
 import mail from "./mail.png"
 import linkedin from "./linkedin.png"
+import {useEffect, useRef, useState} from "react"
 function Contact() {
+    const contactRef = useRef(); 
+    const [contactAnimationClass, setAnimationClass] = useState('hidden-contact')
+    const callback = (entries, observer) => {
+        const [entry] = entries;
+        if (entry.isIntersecting) {
+            
+            setAnimationClass('show-contact')
+        }
+    }
+    useEffect(() => {
+        const observer = new IntersectionObserver(callback)
+        observer.observe(contactRef.current)
+    }, [])
     return ( 
     <div className="contact-container" id="contact">
-        <div className="contact-content">
+        <div ref={contactRef} className={"contact-content "+ contactAnimationClass}>
             <p className="getintouch" >GET IN TOUCH</p>
             <p className="getintouch-msg" >
                 I'm currently exploring opportunites in <span style={{color:"#B72C2C", fontSize:"18px", fontFamily:"ChakraPetch"}}>Front-end Development.</span><br/>

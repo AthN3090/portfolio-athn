@@ -11,10 +11,23 @@ import react from "./react.png"
 import php from "./php.png"
 import mysql from "./mysql.png"
 import express from "./express.png"
+import {useEffect, useRef, useState} from 'react'
 function About() {
+    const [aboutAnimationClass, setAnimationClass] = useState('hidden-about')
+    const aboutRef = useRef(); 
+    const callback = (entries, observer) => {
+        const [entry] = entries;
+        if (entry.isIntersecting) {
+            setAnimationClass('show-about')
+        }
+    }
+    useEffect(() => {
+        const observer = new IntersectionObserver(callback)
+        observer.observe(aboutRef.current)
+    }, [])
     return ( 
     <div className="about-container" id="about">
-        <div className="intro-container">
+        <div className={"intro-container " + aboutAnimationClass} ref={aboutRef}>
             <div className="about">
                 <p style={{color:"#B72C2C", fontWeight: "bold" , fontSize:"26px", fontFamily:"ChakraPetch"}}>About Me</p>
                 <p style={{color:"#d1d1d1", fontSize:"18px", fontFamily:"ChakraPetch"}}> 

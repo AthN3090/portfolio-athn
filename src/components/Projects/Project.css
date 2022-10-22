@@ -29,6 +29,15 @@
     margin-bottom:4vw;
 
 }
+.hidden-project{
+    opacity: 0;
+    transform: translateY(100px);
+}
+.show-project{
+    opacity: 1;
+    transform: translateY(0px);
+    transition: all 0.7s;
+}
 
 .project-section-title{
     color: #B72C2C;
@@ -140,7 +149,9 @@
     margin-top: 30px;
     padding: 5px 5px;
 }
-
+.project-links a{
+    margin-right: 20px;
+}
 
 /* media queries */
 @media only screen and (max-width: 1400px){

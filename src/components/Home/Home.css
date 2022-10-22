@@ -8,6 +8,11 @@
 }
 .home-logo{
     height: 300px;
+    transition: 0.2s;
+}
+.home-logo:hover{
+    transform: translateY(-10px);
+    transition: 0.2s;
 }
 .home-greeting{
     width: 60%;
@@ -16,6 +21,16 @@
     flex-direction: row;
     
 }
+.hidden-home{
+    opacity: 0;
+    transform: translateY(100px);
+}
+.show-home{
+    opacity: 1; 
+    transition: all 0.5s;
+    transform: translateY(0px);
+}
+
 .home-greeting p {
     display: inline-block;
 }
@@ -32,10 +47,12 @@
     border-radius: 10px;
     border-color: #B72C2C;
     color: #B72C2C;
+    transition: 0.3s;
 }
 .resume-button:hover{
     background-color: #2b00008b;
-
+    transition: 0.3s;
+    border-radius: 0px;
 }
 .hello-msg{
     margin: 12px 0px;
