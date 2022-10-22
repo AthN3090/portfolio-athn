@@ -23,7 +23,7 @@ function App() {
   })
   return (
     <div className="App">
-      <Loading isVisible={loaderVisible}/>
+      {/* <Loading isVisible={loaderVisible}/> */}
       <Navigation/>
       <Home />
       <About />
