@@ -28,6 +28,9 @@ function Project() {
                 if(entry.isIntersecting){
                     entry.target.classList.add('show-project')
                     entry.target.classList.remove('hidden-project')
+                }else{
+                    entry.target.classList.add('hidden-project')
+                    entry.target.classList.remove('show-project')
                 }
             }
             )

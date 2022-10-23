@@ -36,7 +36,7 @@
 .show-project{
     opacity: 1;
     transform: translateY(0px);
-    transition: all 0.7s;
+    transition: all 0.5s;
 }
 
 .project-section-title{
@@ -178,7 +178,7 @@
 @media only screen and (max-width: 900px){
     .project-section{
         width: 80%;
-        margin: 0;
+        margin: 60px 0px;
         
     }
     .project-card{

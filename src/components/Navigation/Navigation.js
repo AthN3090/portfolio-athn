@@ -15,6 +15,13 @@ function Navigation() {
             setVisible(true)
         }
     }
+    const hideMenu = () =>{
+        if(isVisible){
+            setNavClass('nav-options')
+            setBarClass('bar')
+        }
+
+    }
     
     return ( 
     <div className="navbar">
@@ -26,9 +33,9 @@ function Navigation() {
             <div className={barClass}></div>
         </div>
         <ul className={navClass} >
-            <li className="option"><a href="#about">About</a></li>
-            <li className="option"><a href="#projects">Projects</a></li>
-            <li className="option"><a href="#contact">Contact</a></li>
+            <li className="option"><a href="#about" onClick={hideMenu}>About</a></li>
+            <li className="option"><a href="#projects" onClick={hideMenu}>Projects</a></li>
+            <li className="option"><a href="#contact" onClick={hideMenu}>Contact</a></li>
         </ul>
     </div> 
     );

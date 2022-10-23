@@ -9,8 +9,9 @@ function Contact() {
     const callback = (entries, observer) => {
         const [entry] = entries;
         if (entry.isIntersecting) {
-            
             setAnimationClass('show-contact')
+        }else{
+            setAnimationClass('hidden-contact')
         }
     }
     useEffect(() => {
