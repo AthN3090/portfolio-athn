@@ -19,6 +19,7 @@ function Navigation() {
         if(isVisible){
             setNavClass('nav-options')
             setBarClass('bar')
+            setVisible(false)
         }
 
     }

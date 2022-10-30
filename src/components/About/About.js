@@ -36,7 +36,7 @@ function About() {
                 Hey! I am Aman Dev Chowdary. I am a computer science undergraduate from IIIT Surat, working full-time as an Assistant System Engineer at TCS. 
                 <br/><br/>I like exploring ideas and building applications to solve real-life problems with code.
                 I am currently looking for oportunites to work with awesome people and grow as a software engineer.
-                <br/><br/>When I am not coding, I play badminton and sometimes I play computer games with my friends. 
+                <br/><br/>When I am not coding, I play badminton and sometimes I play video games with my friends. 
                 </p>
             </div>
             <div className="devider" ></div>
