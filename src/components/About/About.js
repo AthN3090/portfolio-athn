@@ -19,8 +19,6 @@ function About() {
         const [entry] = entries;
         if (entry.isIntersecting) {
             setAnimationClass('show-about')
-        }else{
-            setAnimationClass('hidden-about')
         }
     }
     useEffect(() => {

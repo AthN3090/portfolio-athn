@@ -77,6 +77,7 @@
     .intro-container{
         width: 100%;
         flex-wrap: wrap;
+        padding:20px;
     }
     .skills{
         justify-content: space-between;
@@ -88,8 +89,10 @@
     }
     .about{
         margin: 0;
+        flex-grow:1;
     }
     .tools{
+        flex-grow:1;
         margin:20px 0px;
     }
     .devider{

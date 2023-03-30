@@ -10,8 +10,6 @@ function Home() {
         if (entry.isIntersecting) {
             setAnimationClass('show-home')
             // homeRef.current.classList.add('show-home')
-        }else{
-            setAnimationClass('hidden-home')
         }
     }
     useEffect(() => {

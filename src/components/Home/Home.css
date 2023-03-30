@@ -15,15 +15,16 @@
     transition: 0.2s;
 }
 .home-greeting{
-    width: 60%;
+    padding:10px;
+    max-width: 1200px;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    
+    align-items:stretch;
 }
 .hidden-home{
     opacity: 0;
-    transform: translateY(100px);
+    transform: translateY(-200px);
 }
 .show-home{
     opacity: 1; 
@@ -110,7 +111,9 @@
 }
 
 @media only screen and (max-width: 768px){
-    
+    .home-text{
+        text-align:center;
+    }
     .home-greeting img{
         height: 30vw;
         width: 30vw;
@@ -133,8 +136,8 @@
 
     }
     .name{
-        font-size: 6vw;
-        line-height: 7vw;
+        font-size: 10vw;
+        line-height: 10vw;
     }
     .tagline{
         font-size: 3vw;
@@ -145,8 +148,8 @@
 @media only screen and (max-width: 600px){
     
     .home-greeting img{
-        height: 30vw;
-        width: 30vw;
+        height: 50vw;
+        width: 50vw;
         
     }
     
@@ -156,21 +159,21 @@
     }
     
     .hello-msg{
-        font-size: 5vw;
+        font-size: 4vw;
     }
     .resume-button{
-        font-size: 5vw;
+        font-size: 4vw;
         top: 20px;
         padding: 10px 10px;
         border: 2px solid;
 
     }
     .name{
-        font-size: 8vw;
-        line-height: 10vw;
+        font-size: 11vw;
+        line-height: 11vw;
     }
     .tagline{
-        font-size: 5vw;
+        font-size: 4vw;
     }
     
 }

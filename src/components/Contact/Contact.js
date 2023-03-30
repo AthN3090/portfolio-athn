@@ -10,8 +10,6 @@ function Contact() {
         const [entry] = entries;
         if (entry.isIntersecting) {
             setAnimationClass('show-contact')
-        }else{
-            setAnimationClass('hidden-contact')
         }
     }
     useEffect(() => {
@@ -21,28 +19,25 @@ function Contact() {
     return ( 
     <div className="contact-container" id="contact">
         <div ref={contactRef} className={"contact-content "+ contactAnimationClass}>
-            <p className="getintouch" >GET IN TOUCH</p>
+            <p className="getintouch" >Contact</p>
             <p className="getintouch-msg" >
-                I'm currently exploring opportunites in <span style={{color:"#B72C2C", fontSize:"18px", fontFamily:"ChakraPetch"}}>Front-end Development.</span><br/>
-                Feel free to reach out incase you have an opportunity for me or just want to say hi.
+                I'm currently exploring opportunites in <br/><span style={{color:"#B72C2C", fontSize:"18px", fontFamily:"ChakraPetch"}}>Front-end Development.</span><br/>
+                Feel free to reach out incase you have an opportunity for me, or just want to say hi.
             </p>
             <div className="links-container2">
-            <a href="https://github.com/AthN3090" className="contact-link">
-                <img src={github} style={{marginRight:"15px"}} height="18px" alt="github"></img>
-                Github
+            <a href="https://github.com/AthN3090"  title="Github" className="contact-link">
+                <img src={github} height="18px" alt="github"></img>
             </a>
-            <a href="https://www.linkedin.com/in/athn3090/" className="contact-link">
-                <img src={linkedin} style={{marginRight:"15px"}} height="18px" alt="linkedin"></img>
-                Linkedin
+            <a href="https://www.linkedin.com/in/athn3090/" className="contact-link"  title="Linkedin">
+                <img src={linkedin} height="18px" alt="linkedin"></img>
             </a>
-            <a href="mailto:amandevrishi12@gmail.com" className="contact-link">
-                <img src={mail}  style={{marginRight:"15px"}} height="18px" alt="mail"></img>
-                Email
+            <a href="mailto:amandevrishi12@gmail.com" className="contact-link"  title="Email">
+                <img src={mail}   height="18px" alt="mail"></img>
             </a>
             </div>
         </div>
-        <div style={{color:"#9D9D9D", fontSize:"18px", fontFamily:"ChakraPetch", margin:"10px", textAlign:"center"}}> 
-            Designed and Developed by Aman Dev Chowdhary
+        <div style={{color:"#9D9D9D", fontSize:"16px", fontFamily:"ChakraPetch", margin:"10px", textAlign:"center"}}> 
+            Designed and Developed by <br/>Aman Dev Chowdhary
         </div>
     </div> );
 }

@@ -27,10 +27,6 @@ function Project() {
             entries.forEach(entry => {
                 if(entry.isIntersecting){
                     entry.target.classList.add('show-project')
-                    entry.target.classList.remove('hidden-project')
-                }else{
-                    entry.target.classList.add('hidden-project')
-                    entry.target.classList.remove('show-project')
                 }
             }
             )
@@ -58,7 +54,11 @@ function Project() {
                     <div className="project-details">
                     <p style={{color:"#B72C2C", }}>Heiwa</p>
                         <div className="project-description ">
-                        A one-to-one anonymous chat application for people with poor mental health.
+                        Heiwa is a messaging platform for people to talk about their mental 
+                        health and connect with people going through a similar phase. It also 
+                        has a basic whiteboard which can be used to play funny doodle games, 
+                        or people can use it to express themselves creatively.
+                        
                         </div>
                         <div className="project-stack">
                             <div className="react stack-tag ">
