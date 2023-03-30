@@ -36,8 +36,8 @@ function Contact() {
             </a>
             </div>
         </div>
-        <div style={{color:"#9D9D9D", fontSize:"16px", fontFamily:"ChakraPetch", margin:"10px", textAlign:"center"}}> 
-            Designed and Developed by <br/>Aman Dev Chowdhary
+        <div style={{color:"#9D9D9D", fontSize:"14px", fontFamily:"ChakraPetch", margin:"10px", textAlign:"center"}}> 
+            Designed and Developed by Aman Dev Chowdhary
         </div>
     </div> );
 }
