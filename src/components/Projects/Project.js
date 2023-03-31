@@ -64,7 +64,7 @@ function Project() {
                 A simple blogging application based on react-markdown.
               </span>
               <div className="project-description ">
-                Write-er is a minimal blogging website based on react-markdown.
+                Write-er is a minimal blogging website based on react-markdown. Developed with MERN stack.
                 <br />
                 <br />
                 Features implemented:
