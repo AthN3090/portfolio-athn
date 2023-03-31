@@ -110,18 +110,8 @@ function Project() {
                   ></img>
                   <img
                     className="stack-tag"
-                    src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"
-                    alt="react-router"
-                  ></img>
-                  <img
-                    className="stack-tag"
-                    src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens"
-                    alt="jwt"
-                  ></img>
-                  <img
-                    className="stack-tag"
                     src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"
-                    alt="express"
+                    alt="mongo"
                   ></img>
                   <img
                     className="stack-tag"
