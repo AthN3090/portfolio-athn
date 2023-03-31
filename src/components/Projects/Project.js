@@ -105,11 +105,6 @@ function Project() {
                   ></img>
                   <img
                     className="stack-tag"
-                    src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white"
-                    alt="redux"
-                  ></img>
-                  <img
-                    className="stack-tag"
                     src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"
                     alt="mongo"
                   ></img>
