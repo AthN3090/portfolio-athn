@@ -26,13 +26,13 @@ function Contact() {
             </p>
             <div className="links-container2">
             <a href="https://github.com/AthN3090"  title="Github" className="contact-link">
-                <img src={github} height="18px" alt="github"></img>
+                <img src={github} height="22px" alt="github"></img>
             </a>
             <a href="https://www.linkedin.com/in/athn3090/" className="contact-link"  title="Linkedin">
-                <img src={linkedin} height="18px" alt="linkedin"></img>
+                <img src={linkedin} height="22px" alt="linkedin"></img>
             </a>
             <a href="mailto:amandevrishi12@gmail.com" className="contact-link"  title="Email">
-                <img src={mail}   height="18px" alt="mail"></img>
+                <img src={mail}   height="22px" alt="mail"></img>
             </a>
             </div>
         </div>
