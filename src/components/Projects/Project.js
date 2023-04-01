@@ -70,21 +70,21 @@ function Project() {
                 Features implemented:
                 <ul style={{ paddingLeft: "25px", listStyleType: "square" }}>
                   <li>
-                    <span style={{ fontWeight: "bold", color: "#B72C2C" }}>
+                    <span style={{ fontWeight: "bold" }}>
                       Text editor
                     </span>{" "}
                     - Implemented using react-markdown. Users can create, edit
                     and delete their posts.
                   </li>
                   <li>
-                    <span style={{ fontWeight: "bold", color: "#B72C2C" }}>
+                    <span style={{ fontWeight: "bold" }}>
                       User authentication
                     </span>{" "}
                     - It uses JWT(JSON Web Tokens) for authentication. Passwords
                     are encrypted using bcrypt.{" "}
                   </li>
                   <li>
-                    <span style={{ fontWeight: "bold", color: "#B72C2C" }}>
+                    <span style={{ fontWeight: "bold" }}>
                       Post Filtering
                     </span>{" "}
                     - Filtering based on the topic tag of the post.
