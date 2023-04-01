@@ -127,6 +127,7 @@
 }
 .home-text{
     margin: 0px 5px;
+    width: 50%;
 }
 @media only screen and (max-width: 1024px){
     .home-greeting img{
@@ -135,8 +136,8 @@
     }
     
     .home-logo, .logo{
-        height: 270px;
-        width: 270px;
+        height: 25vw;
+        width: 25vw;
         margin: 0;
     }
     
