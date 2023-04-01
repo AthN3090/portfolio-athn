@@ -6,13 +6,57 @@
     justify-content: center;
     align-items: center;
 }
+.logo-container{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items:center ;
+}
 .home-logo{
+    position: relative;
     height: 300px;
+    width: 300px;
     transition: 0.2s;
+    border-radius: 100%;
+    outline: solid 4px #B72C2C;
+    outline-offset: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.2;
+
 }
 .home-logo:hover{
     transform: translateY(-10px);
-    transition: 0.2s;
+    transition: 0.2;
+}
+.home-logo:hover .avatar-logo{
+    transform: rotateY(180deg);
+    transition: 0.4s;
+}
+.home-logo:hover .real-logo{
+    transform: rotateY(0deg);
+    transition: 0.4s;
+}
+.logo{
+    transition: 0.4s;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+
+}
+.avatar-logo{
+    
+}
+.real-logo{
+    transform: rotateY(-180deg);
+
 }
 .home-greeting{
     padding:10px;
@@ -20,7 +64,7 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    align-items:stretch;
+    align-items:center;
 }
 .hidden-home{
     opacity: 0;
@@ -82,13 +126,19 @@
 }
 @media only screen and (max-width: 1024px){
     .home-greeting img{
-        height: 22vw;
-        width: 22vw;
-        margin: auto 50px;
+        
+        margin: auto ;
     }
     
-    .home-greeting{
-        
+    .home-logo, .logo{
+        height: 270px;
+        width: 270px;
+        margin: 0;
+    }
+    
+    
+    .home-text{
+        width: 50%;
     }
     
     .hello-msg{
@@ -113,16 +163,20 @@
 @media only screen and (max-width: 768px){
     .home-text{
         text-align:center;
+        width: 100%;
     }
-    .home-greeting img{
-        height: 30vw;
-        width: 30vw;
-        
+    .logo-container{
+        width: 100%;
+    }    .home-logo, .logo{
+        height: 270px;
+        width: 270px;
+        margin: 0;
     }
     
+    
     .home-greeting{
-
-        flex-wrap: wrap;
+        gap: 30px;
+        flex-direction: column;
     }
     
     .hello-msg{
@@ -147,14 +201,14 @@
 
 @media only screen and (max-width: 600px){
     
-    .home-greeting img{
-        height: 50vw;
-        width: 50vw;
-        
+    .home-logo, .logo{
+        height: 200px;
+        width: 200px;
+        margin: 0;
     }
     
     .home-greeting{
-        
+        gap: 30px;
         flex-wrap: wrap;
     }
     

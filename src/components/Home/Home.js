@@ -1,5 +1,6 @@
 import './Home.css'
-import avatar from "./avatar.png"
+import avatar from "./avatar2.jpeg"
+import real from './real2.jpg'
 import profile from "../../Profile.json"
 import {useEffect, useRef, useState} from "react"
 function Home() {
@@ -19,7 +20,14 @@ function Home() {
     return ( 
         <div  className='home-container' id="home">
             <div ref ={homeRef} className= {"home-greeting " + homeAnimationClass}>
-                <img className="home-logo" src={avatar} alt="avatar" ></img>
+            <div className='logo-container'>
+
+                <div className="home-logo">
+                    <img className="logo avatar-logo" src={avatar} alt="avatar" ></img>
+                    <img className="logo real-logo" src={real} alt="avatar" ></img>
+                </div>
+                
+            </div>
                 <div className='home-text'>
                     <p className="hello-msg">
                         {profile.main.greeting}
