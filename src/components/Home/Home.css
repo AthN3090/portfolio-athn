@@ -17,9 +17,11 @@
     height: 300px;
     width: 300px;
     transition: 0.2s;
-    border-radius: 100%;
-    outline: solid 4px #B72C2C;
-    outline-offset: 0px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    outline: solid 3px #B72C2C;
+    outline-offset: 6px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +45,9 @@
     transition: 0.4s;
     height: 100%;
     width: 100%;
-    border-radius: 100%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
     object-fit: cover;
     object-position: center;
     position: absolute;
