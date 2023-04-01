@@ -201,7 +201,7 @@
         top: 20px;
         padding: 10px 10px;
         border: 2px solid;
-
+        transform: translateX(-4%);
     }
     .name{
         font-size: 10vw;
