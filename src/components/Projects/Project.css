@@ -10,7 +10,7 @@
 .project-section{
     margin-top: 30px;
     margin-bottom: 10vh;
-    max-width: 900px;
+    max-width: 1000px;
 }
 
 .card-container{
@@ -20,11 +20,11 @@
     margin-top:30px;
 }
 .project-card{
-    padding:20px;
+    
     border-radius: 10px;
     border: solid 1px #505050;
     display: flex;
-    
+    overflow: hidden;
     gap:20px;
     justify-content: center;
     align-items: stretch;
@@ -73,7 +73,7 @@
     justify-content: space-between;
     height: 100%;
     position: relative;
-   
+    padding: 20px 10px;
 }
 .project-description{
     font-family: "ChakraPetch";
@@ -97,7 +97,9 @@
     min-height: 350px;
     border-radius: 0px;
     width: 100%;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0px 0px;
     
     
 }
@@ -163,7 +165,7 @@
 }
 }
 
-@media only screen and (max-width: 2000px){
+@media only screen and (max-width: 900px){
     .project-section{
         margin: 30px 0px;
         padding: 20px;
@@ -174,6 +176,7 @@
         padding:0px;
         flex-direction: column;
         width: 100%;
+        margin-bottom: 5vw;
     }
     .project-img-container{
         margin: 0;
