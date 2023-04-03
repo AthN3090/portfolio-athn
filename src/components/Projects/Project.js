@@ -215,6 +215,7 @@ function Project() {
                 className="project-img"
                 src={pinitup}
                 alt="projectimage"
+                style={{objectPosition:"right top"}}
               ></img>
             </div>
             <div className="project-details">
