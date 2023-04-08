@@ -241,8 +241,9 @@ function Project() {
               <div className="project-description ">
                 PinItUp is a modern bookmarking extension that helps you
                 organize your bookmarks all in one place with ease. <br />
-                Features:
                 <br />
+                Features implemented:
+                
                 <ul style={{ paddingLeft: "25px", listStyleType: "square" }}>
                   <li>Intuitive user interface</li>
                   <li>Organize bookmarks into different folders</li>
@@ -302,11 +303,16 @@ function Project() {
                 ></i>
               </p>
               <span className="project-tagline">
-                Command line tool for quick file save on the cloud.
+                Command line tool for saving your workfiles in the cloud.
               </span>
               <div className="project-description ">
-                Save-me is a command-line tool for saving your work files with
-                just a single command through your terminal.
+              A CLI tool that enables users to save their incomplete work from public workspaces, such as office or school labs, and download the files to their personal systems for later use.
+             <br/><br/>Features implemented:
+              <ul style={{ paddingLeft: "25px", listStyleType: "square" }}>
+                  
+                  <li>Utilizes Firebase's Firestore to store multiform data, including user registration information and uploaded files.</li>
+                  <li>Users can upload, download and delete their files from the cloud storage.</li>
+                </ul>
               </div>
               <div className="project-footer">
                 <div className="project-stack">
@@ -365,7 +371,7 @@ function Project() {
                   aria-label="BOMB"
                 ></i>
               </p>
-              <span className="project-tagline">Minesweeper in React</span>
+              <span className="project-tagline">Simple Minesweeper game</span>
               <div className="project-description ">
                 An implementation of the classic minesweeper game with React.
               </div>
