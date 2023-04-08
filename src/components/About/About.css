@@ -46,14 +46,14 @@
 
     padding: 10px 10px;
     /* border: white solid; */
-    min-width: 150px;
+    min-width: 140px;
     display: flex;
     align-items: center;
     color:#d1d1d1;
 }
 .tag-img{
     height: 24px;
-    margin: 5px 15px 5px 5px;
+    margin: 5px 10px 5px 5px;
 }
 
 .devider{
@@ -79,9 +79,6 @@
         width: 100%;
         flex-wrap: wrap;
         padding:20px;
-    }
-    .skills{
-        justify-content: space-between;
     }
     .skill-tag{
         min-width: 0px;

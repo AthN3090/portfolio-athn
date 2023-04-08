@@ -23,13 +23,18 @@ function App() {
   },[])
   return (
     <div className="App">
-      <Loading isVisible={loaderVisible}/>
-      <Navigation/>
-      <Home />
-      <About />
-      <Project/>
-      <Contact />
-      <Links />
+      {loaderVisible ? (
+        <Loading isVisible={loaderVisible} />
+      ) : (
+        <>
+          <Navigation />
+          <Home />
+          <About />
+          <Project />
+          <Contact />
+          <Links />
+        </>
+      )}
     </div>
   );
 }
