@@ -12,15 +12,21 @@ body {
     background-color:black;
 
   
+
+  
+}
+body::-webkit-scrollbar{
+  background-color: transparent;
+  width: 7px;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: rgba(209, 209, 209, 0.5);
+  border-radius: 2px;
 }
 html{             
-  scrollbar-width: none; 
   height: 100vh;
-  scroll-behavior: smooth;
 }
-html::-webkit-scrollbar{
-  width: 0px;
-}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
