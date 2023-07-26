@@ -64,9 +64,7 @@
     transform-style: preserve-3d;
 
 }
-.avatar-logo{
-    
-}
+
 .real-logo{
     transform: rotateY(-180deg);
 
@@ -124,8 +122,9 @@
     color:#B72C2C;
     font-size: 70px;
     font-family: MrRobot;
-    letter-spacing:7px;
+    letter-spacing:2px;
     line-height:80px;
+    word-spacing: 5px;
 }
 .tagline{
     color:#d1d1d1;
@@ -237,8 +236,8 @@
 
     }
     .name{
-        font-size: 11vw;
-        line-height: 11vw;
+        font-size: 13vw;
+        line-height: 14vw;
     }
     .tagline{
         font-size: 4vw;
