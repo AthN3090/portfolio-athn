@@ -11,7 +11,6 @@ function App() {
   const [loaderVisible, setLoaderVisible] = useState(true)
   useEffect(()=>{
     const onPageLoad = ()=>{
-      console.log("page loaded")
       setLoaderVisible(false)
     }
     if(document.readyState === 'complete'){

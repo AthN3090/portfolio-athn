@@ -24,7 +24,7 @@
 }
 .contact-link{
     font-size: 18px;
-    font-family: "ChakraPetch";
+    font-family: "Chakra Petch";
     padding: 15px 15px;
     display: flex;
     align-items:center;
@@ -50,7 +50,7 @@
 .getintouch-msg{
     color:#9D9D9D;
     font-size:18px;
-    font-family:"ChakraPetch";
+    font-family:"Chakra Petch";
     margin: 10px;
 }
 @media only screen and (max-width: 768px){

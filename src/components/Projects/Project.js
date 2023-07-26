@@ -50,7 +50,7 @@ function Project() {
                   color: "#B72C2C",
                   margin: "0",
                   fontWeight: "700",
-                  fontFamily: "ChakraPetch",
+                  fontFamily: "Chakra Petch",
                 }}
               >
                 Write-er{" "}
@@ -142,7 +142,7 @@ function Project() {
 
                   margin: "0",
                   fontWeight: "700",
-                  fontFamily: "ChakraPetch",
+                  fontFamily: "Chakra Petch",
                 }}
               >
                 Heiwa
@@ -225,7 +225,7 @@ function Project() {
                   color: "#B72C2C",
                   margin: "0",
                   fontWeight: "700",
-                  fontFamily: "ChakraPetch",
+                  fontFamily: "Chakra Petch",
                 }}
               >
                 PinItUp{" "}
@@ -292,7 +292,7 @@ function Project() {
                   color: "#B72C2C",
                   margin: "0",
                   fontWeight: "700",
-                  fontFamily: "ChakraPetch",
+                  fontFamily: "Chakra Petch",
                 }}
               >
                 Save-me{" "}
@@ -361,7 +361,7 @@ function Project() {
                   color: "#B72C2C",
                   margin: "0",
                   fontWeight: "700",
-                  fontFamily: "ChakraPetch",
+                  fontFamily: "Chakra Petch",
                 }}
               >
                 Minesweeper React{" "}
