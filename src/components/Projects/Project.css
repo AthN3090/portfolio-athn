@@ -35,8 +35,20 @@
     margin-bottom:2vw;
 
 }
+.project-card:hover{
+    background-color: #1a1a1a;
+}
 .project-title{
     font-size: 30px;
+}
+.project-title > a{
+    text-decoration: none;
+    color: #B72C2C;
+    transition: 0.2s;
+}
+.project-title > a:hover{
+    color: #f52727;
+    transition: 0.2s;
 }
 .hidden-project{
     opacity: 0;
@@ -73,9 +85,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
     position: relative;
-    padding: 20px 10px;
+    padding: 20px 20px;
 }
 .project-description{
     font-family: "Chakra Petch";
@@ -88,20 +99,26 @@
 
 }
 .project-img-container{
-    display: flex;
-    align-items: center;
-    flex-grow: 1;
+    transition: 0.2s;
+    
+    overflow: hidden;
+}
+.project-img-container:hover{
+    cursor:pointer;
     
 }
 .project-img{
     display: block;
     border-radius: 0px;
     width: 100%;
-    height: 300px;
+    height: 500px;
     object-fit: cover;
     object-position: 0px 0px;
-    
-    
+    transition: 0.2s;
+}
+.project-img:hover{
+    transform: scale(1.03);
+    transition: 0.2s;
 }
 .project-stack{
     display: flex;
@@ -133,9 +150,15 @@
     justify-content: space-between;
     width: 60px;
     gap:15px;
-    margin-top: 30px;
-
-    
+    margin-top: 30px;   
+    transition: all 0.2s;
+}
+.project-links a{
+    transition: all 0.2s;
+}
+.project-links a:hover{
+    filter: brightness(150%);
+    transition: all 0.2s;
 }
 
 .project-footer{
@@ -155,9 +178,7 @@
 }
 
 .project-img-container{
-    display: flex;
-    padding-bottom: 0px;
-    justify-content: center;
+    
 }
 .project-description{
     margin: 0px;
@@ -183,8 +204,6 @@
         margin-bottom: 2vw;
     }
     .project-img-container{
-        margin: 0;
-        width: 100%;
         
     }
     .project-img{

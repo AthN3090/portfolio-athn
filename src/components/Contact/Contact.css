@@ -33,6 +33,12 @@
     border-radius: 100%;
     color: white;
     text-decoration: none;
+    transition: all 0.2s;
+}
+.contact-link:hover{
+    filter: brightness(115%); 
+    transform: translateY(-5px);
+    transition: all 0.2s;
 }
 .links-container2{
     display:flex;
