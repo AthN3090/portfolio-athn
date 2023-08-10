@@ -36,15 +36,15 @@
 
 .skills{
    width: 100%;
-   display: flex;
-   flex-wrap: wrap;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 }
 .skill-tag{
     font-family: "Chakra Petch";
     font-size: 18px;
 
 
-    padding: 10px 10px;
+    padding: 10px 0px;
     /* border: white solid; */
     min-width: 140px;
     display: flex;
@@ -61,7 +61,7 @@
      width:1px;
      margin:150px 40px;
 }
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1400px){
     .intro-container{
         width: 90%;
     }
