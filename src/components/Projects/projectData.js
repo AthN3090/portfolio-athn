@@ -6,7 +6,7 @@ const projectData = [
         <i class="em em-memo" style={{ height: "32px" }} aria-label="MEMO"></i>
       </>
     ),
-    img: "/images/writer-img.png",
+    img: "/images/writer-img.PNG",
     imgPos:"left",
     tagline: "A simple blogging application based on react-markdown.",
     description: (
