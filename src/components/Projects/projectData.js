@@ -229,7 +229,7 @@ const projectData = [
                 ></i>
         </>
       ),
-      img: "/images/reactivemines.gif",
+      img: "/images/minesweeper.png",
       imgPos:"top",
       tagline: "An implementation of the classic minesweeper game with React.",
       description: (
@@ -242,10 +242,16 @@ const projectData = [
                     className="stack-tag"
                     src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
                     alt="react"
+                  ></img>,
+                  <img
+                    className="stack-tag"
+                    src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white"
+                    alt="TypeScript"
                   ></img>
+                  
       ],
-      github: "https://github.com/AthN3090/reactive-mines",
-      live: "https://reactive-mines.vercel.app",
+      github: "https://github.com/AthN3090/minesweeper-ts",
+      live: "https://minesweeper-ts-navy.vercel.app/",
   }
 ];
 
