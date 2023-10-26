@@ -21,7 +21,7 @@ function Contact() {
         <div ref={contactRef} className={"contact-content "+ contactAnimationClass}>
             <p className="getintouch" >Contact</p>
             <p className="getintouch-msg" >
-                I'm currently exploring opportunites in <br/><span style={{color:"#B72C2C", fontSize:"18px", fontFamily:"Chakra Petch"}}>Front-end Development.</span><br/>
+                I'm currently exploring opportunites in <br/><span style={{color:"#B72C2C", fontSize:"18px", fontFamily:"Chakra Petch"}}>Full stack Development.</span><br/>
                 Feel free to reach out incase you have an opportunity for me, or just want to say hi.
             </p>
             <div className="links-container2">
